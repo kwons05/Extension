@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="General\TreeNode.cs" />
     <Compile Include="Utility\ExtensionMethod.cs" />
     <Compile Include="Utility\Logger.cs" />
     <Compile Include="Utility\Logger1.cs" />
@@ -99,5 +100,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
